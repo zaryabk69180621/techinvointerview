@@ -3,6 +3,7 @@ import helping from '../assets/helping.jpg'
 import wwd1 from '../assets/wwd1.jpg'
 import wwd2 from '../assets/wwd2.jpg'
 import wwd3 from '../assets/wwd3.jpg'
+import Offerings from '../components/Reviews'
 function About() {
   return (
     <div className='font-[nunito]'>
@@ -47,9 +48,9 @@ Best Quality Service
         
     </div>
 
-     <div className='flex gap-20 mt-80 justify-center items-center'>
+     <div className=' pb-10 flex gap-20 mt-80 justify-center items-center'>
         <div className='w-4/10 flex flex-col justify-center gap-15'>
-            <h1 className='text-#12275A font-extrabold text-5xl'>The Importance of Proper Postpartum Care</h1>
+            <h1 className='text-#12275A font-extrabold text-5xl'>What We do</h1>
             <p className='text-[#515151] text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
             <div>
                 <div className='flex gap-2 font-lg text-2xl  items-center'>
@@ -61,15 +62,13 @@ Best Quality Service
                 <div className='flex gap-2 font-lg text-2xl  items-center'>
                     <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5 22.375C12.9281 22.375 14.3423 22.0937 15.6617 21.5472C16.9811 21.0007 18.1799 20.1996 19.1898 19.1898C20.1996 18.1799 21.0007 16.9811 21.5472 15.6617C22.0937 14.3423 22.375 12.9281 22.375 11.5C22.375 10.0719 22.0937 8.65773 21.5472 7.33832C21.0007 6.0189 20.1996 4.82005 19.1898 3.81021C18.1799 2.80038 16.9811 1.99933 15.6617 1.45281C14.3423 0.90629 12.9281 0.625 11.5 0.625C8.61577 0.625 5.84967 1.77076 3.81021 3.81021C1.77076 5.84967 0.625 8.61577 0.625 11.5C0.625 14.3842 1.77076 17.1503 3.81021 19.1898C5.84967 21.2292 8.61577 22.375 11.5 22.375ZM11.2197 15.8983L17.2613 8.64833L15.4053 7.10167L10.2095 13.3355L7.52096 10.6457L5.81238 12.3543L9.43738 15.9793L10.3726 16.9145L11.2197 15.8983Z" fill="#15718F"/>
-</svg><p>Highly Professional Team</p>
-
+</svg><p>FIve Star Services </p>
                 </div>
                 <div className='flex gap-2 font-lg text-2xl  items-center'>
                     <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5 22.375C12.9281 22.375 14.3423 22.0937 15.6617 21.5472C16.9811 21.0007 18.1799 20.1996 19.1898 19.1898C20.1996 18.1799 21.0007 16.9811 21.5472 15.6617C22.0937 14.3423 22.375 12.9281 22.375 11.5C22.375 10.0719 22.0937 8.65773 21.5472 7.33832C21.0007 6.0189 20.1996 4.82005 19.1898 3.81021C18.1799 2.80038 16.9811 1.99933 15.6617 1.45281C14.3423 0.90629 12.9281 0.625 11.5 0.625C8.61577 0.625 5.84967 1.77076 3.81021 3.81021C1.77076 5.84967 0.625 8.61577 0.625 11.5C0.625 14.3842 1.77076 17.1503 3.81021 19.1898C5.84967 21.2292 8.61577 22.375 11.5 22.375ZM11.2197 15.8983L17.2613 8.64833L15.4053 7.10167L10.2095 13.3355L7.52096 10.6457L5.81238 12.3543L9.43738 15.9793L10.3726 16.9145L11.2197 15.8983Z" fill="#15718F"/>
-</svg><p>Commitment to Customer</p>
-Best Quality Service
-                </div>
+</svg><p>Commitment to excelence  </p>
+              </div>
             </div>
             <div className='py-7 text-lg px-15 w-fit rounded-2xl bg-[#0896D2]'>
         learn More
@@ -86,6 +85,7 @@ Best Quality Service
        </div>
         
     </div>
+    <Offerings />
     </div>
   )
 }
